@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+android:orientation="vertical"
+
+    tools:context=".FirstFragment">
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="WELCOME!! "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="89dp" />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/firsttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text=" "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="89dp" />
+    <TextView
+        android:id="@+id/thirdtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text=" "
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="89dp" />
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdtext"
+
+        android:layout_margin="8dp"
+
+        android:padding="10dp"
+        android:text="Update1" />
+</LinearLayout>
